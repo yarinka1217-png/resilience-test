@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест — Особиста стійкість</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="card">
+        <!-- Прогрес -->
+        <div class="progress">
+          <div id="step-indicator">Питання 1 з 16</div>
+
+          <div class="progress-bar">
+            <div id="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <!-- Питання -->
+        <div class="question-block">
+          <h2 id="question-text">Текст питання...</h2>
+
+          <div id="options" class="options">
+            <!-- Кнопки відповідей JS підставить сам -->
+          </div>
+        </div>
+
+        <p class="footnote">
+          Обери варіант, який найближчий до того, що ти відчуваєш.
+        </p>
+      </div>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>
